@@ -153,6 +153,31 @@ p.lead {
     border-image: -moz-linear-gradient(122deg, #f9f9f9 0%, #f9f9f9 100%);
 }
 
+.btn-outline-primary-white {
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.15);
+    font-weight: 250;
+    font-family: 'Poppins';
+    font-size: 12px;
+    color: #f9f9f9;
+    border-width: 2px;
+    border-color: #f9f9f9;
+    border-image: -moz-linear-gradient(122deg, #f9f9f9 0%, #f9f9f9 0%);
+    border-radius: 50px;
+}
+
+.btn-outline-primary-white:hover,
+.btn-outline-primary-white:focus,
+.btn-outline-primary-white:active,
+.btn-outline-primary-white:not([disabled]):not(.disabled).active,
+.btn-outline-primary-white:not([disabled]):not(.disabled):active,
+.show>.btn-outline-primary-white.dropdown-toggle {
+    background-image: linear-gradient(122deg, #556A5F 0%, #556A5F 100%);
+    color: #FFF;
+    border-width: 2px;
+    border-color: #69938D;
+    border-image: -moz-linear-gradient(122deg, #f9f9f9 0%, #f9f9f9 100%);
+}
+
 .btn-primary {
     background-image: -moz-linear-gradient(122deg, #678174 0%, #678174 100%);
     background-image: -webkit-linear-gradient(122deg, #678174 0%, #678174 100%);
