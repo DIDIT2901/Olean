@@ -24,7 +24,9 @@ URI     : https://colorlib.com
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
 
     <!-- Font Awesome (Icon) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -33,8 +35,10 @@ URI     : https://colorlib.com
     <!-- Owl carousel -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <!-- Main css -->
-
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Swiper css -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
 </head>
 
 <body data-spy="scroll" data-target="#navbar" data-offset="30">
@@ -91,13 +95,33 @@ URI     : https://colorlib.com
 
     <!-- ======= IVEN ======= -->
     <div class="section light-bg" id="gallery">
-        <div class="container">
-            <div class="tab-content">
-                <div class="tab-pane fade show active" id="communication">
+        <div class="slider-container swiper">
+            <div class="slide-content">
+                <div class="tab-content swiper-wrapper">
+                    <div class="tab-pane fade show active swiper-slide" id="communication">
                         <div class="d-flex flex-column flex-lg-row">
                             <img src="images/Temu Inklusi.jpg" alt="" width="428" height="348" alt="logo"
                                 class="img-fluid rounded align-self-start mr-lg-4 mb-4 mb-lg-0">
-                            <div>
+                            <div class="text-content">
+                                <h3a>Temu Inklusi</h3a>
+                                <p class="lead"><i class="fa-solid fa-calendar-days"></i> Agustus 2023</p>
+                                <p class="lead">Temu Inklusi akan berlangsung pada 21-25 Mei 2023 di Desa Olean,
+                                    Situbondo
+                                    dengan menyuguhkan ragam kegiatan dan interaksi yang mempertemukan berbagai elemen,
+                                    mulai dari pemerintah, organisasi dan masyarakat disabilitas. Bupati Karna Suswandi
+                                    menjelaskan bahwa Temu Inklusi Ke-5 ini merupakan bagian dari upaya pemerintah
+                                    daerah
+                                    untuk mendorong terwujudnya...</p>
+                                <a href="detailberita.html" class="btn btn-outline-primary btn-sm">Selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade show active swiper-slide" id="communication">
+                        <div class="d-flex flex-column flex-lg-row">
+                            <img src="images/Temu Inklusi.jpg" alt="" width="428" height="348" alt="logo"
+                                class="img-fluid rounded align-self-start mr-lg-4 mb-4 mb-lg-0">
+                            <div class="text-content">
                                 <h3a>Temu Inklusi</h3a>
                                 <p class="lead"><i class="fa-solid fa-calendar-days"></i> Agustus 2023</p>
                                 <p class="lead">Temu Inklusi akan berlangsung pada 21-25 Mei 2023 di Desa Olean,
@@ -113,7 +137,11 @@ URI     : https://colorlib.com
                     </div>
                 </div>
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
         </div>
+    </div>
     <!-- // end .section -->
 
 
@@ -128,7 +156,7 @@ URI     : https://colorlib.com
             <div class="card-deck">
                 <div class="card pricing">
                     <img src="images/Green House.jpg" class="rdo"">
-                    <a href="#" class="btn btn-primary btn-lg">Green House</a>
+                    <a href=" #" class="btn btn-primary btn-lg">Green House</a>
                 </div>
                 <div class="card pricing">
                     <img src="images/Sekolah alam.jpg" class="rdo">
@@ -176,15 +204,18 @@ URI     : https://colorlib.com
                     </p>
                     <p>
                         <i class="fa-brands fa-facebook"></i>
-                        <a href="https://www.facebook.com/kimtrisulaolean26" class="me-4 text-reset">KIM Trisula Olean</a>
+                        <a href="https://www.facebook.com/kimtrisulaolean26" class="me-4 text-reset">KIM Trisula
+                            Olean</a>
                     </p>
                     <p>
                         <i class="fa-brands fa-instagram"></i>
-                        <a href="https://www.instagram.com/desaolean_situbondo/" class="me-4 text-reset">@desaolean_situbondo</a>
+                        <a href="https://www.instagram.com/desaolean_situbondo/"
+                            class="me-4 text-reset">@desaolean_situbondo</a>
                     </p>
                     <p>
                         <i class="fa-brands fa-instagram"></i>
-                        <a href="https://www.instagram.com/kimtrisulaolean/" class="me-4 text-reset">@kimtrisulaolean</a>
+                        <a href="https://www.instagram.com/kimtrisulaolean/"
+                            class="me-4 text-reset">@kimtrisulaolean</a>
                     </p>
                 </div>
                 <!-- Right -->
@@ -202,6 +233,8 @@ URI     : https://colorlib.com
     <script src="js/owl.carousel.min.js"></script>
     <!-- Custom JS -->
     <script src="js/script.js"></script>
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
 
 </body>
 

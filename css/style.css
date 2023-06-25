@@ -513,7 +513,7 @@ header {
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
     background-color: #FFF;
-    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.12);
+    /* box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.12); */
     padding: 3rem;
 }
 
@@ -526,6 +526,7 @@ header {
 .tab-content p {
     line-height: 1.8;
     color: #50797D;
+    /* text-align: justify; */
 }
 
 .tab-content h2 {
@@ -585,6 +586,24 @@ header {
     color: #718E80;
     font-family: 'Poppins';
     font-weight: 800;
+}
+
+.slider-container {
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.text-content {
+    padding-right: 72px;
+    padding-left: 24px;
+}
+
+.slide-content {
+    margin: 3rem;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-radius: 8px;
 }
 
 
