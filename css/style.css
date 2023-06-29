@@ -221,7 +221,7 @@ p.lead {
 }
 
 .light-bg {
-    background-color: #faf6fb;
+    background-color: #f9f9f9;
 }
 
 .section {
@@ -537,7 +537,7 @@ header {
 .tab-content {
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
-    background-color: #FFF;
+    background-color: #f9f9f9;
     /* box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.12); */
     padding: 3rem;
 }
@@ -627,8 +627,9 @@ header {
 .slide-content {
     margin: 3rem;
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: #f9f9f9;
     border-radius: 8px;
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
 
 
@@ -639,7 +640,7 @@ header {
     width: 110px;
     margin: 30px auto;
     border-radius: 50%;
-    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
+    
 }
 
 .testimonials-single {
@@ -816,6 +817,11 @@ header {
 
 .lfooter {
     padding-left: 150px;
+    align-items: center;
+}
+
+.rfooter {
+    align-items: center;
 }
 
 /* .social-icons {
