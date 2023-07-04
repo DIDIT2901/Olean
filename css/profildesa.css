@@ -158,6 +158,10 @@ h5 {
 
 p {
     color: #F9F9F9;
+}
+
+.tab-pane p {
+    color: f9f9f9;
     text-indent: 4rem;
 }
 
@@ -301,4 +305,13 @@ p.lead {
 
 .lfooter {
     padding-left: 150px;
+    align-items: center;
+}
+
+.lfooter p {
+    color: #F9F9F9;
+}
+
+.rfooter {
+    align-items: center;
 }
